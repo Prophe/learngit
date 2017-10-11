@@ -1,0 +1,51 @@
+*{ margin:0px; padding:0px;}  
+.exit{
+margin:0 auto;
+display:inline-block;
+font-size: 24px;
+color:white ;
+float: right;
+margin-top: 32px;
+margin-right: 75px;
+text-decoration:none;
+}
+/*下拉菜单*/
+#nav{ width:100%; height:40px; margin:0 auto;}  
+#nav ul{ list-style:none; display:inline-block;float: right; }  
+#nav ul li{ float:left; line-height:40px; text-align:center; position:relative;}  
+#nav ul li a{ text-decoration:none; color:#000; display:block;padding:0px 10px;}  
+#nav ul li a:hover{ color:#FFF; background:#333}  
+#nav ul li ul{ position:absolute; display:none;}  
+#nav ul li ul li{ float:none; line-height:40px; text-align:left;}  
+#nav ul li ul li a{ width:80px;}  
+#nav ul li ul li a:hover{ background-color:#06f;}  
+#nav ul li:hover ul{ display:block}  
+
+/**/
+
+#left{
+	width: 180px;
+	height: 600px;
+	background-color:#FAF8FA;
+	
+	display:inline-block;
+}
+#commodity{
+	width: 178px;
+	border: 1px solid #FAF8FA;
+	
+	
+}
+#left .left{
+	width: 178px;
+	border: 1px solid #FAF8FA;
+	color:#A7A5AA;
+	font-size:18px;
+	height: 40px;
+	display:block;
+	text-align:center;
+	line-height: 40px;
+}
+#right{
+	display:inline-block;
+}

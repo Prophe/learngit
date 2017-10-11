@@ -1,0 +1,124 @@
+#right{
+	
+	border: 1px solid red;
+	width:85%;height:630px;border: 1px solid red;display: inline-block;
+	position: absolute;
+	top: 102px;
+	left: 14%;
+}
+
+#cate{
+	height: 600px;
+	width: 68%;
+	position: absolute;
+	top: 120px;
+	left: 22%;
+	/*overflow:scroll;  /* x y都出现滚动条 */
+    overflow-x:scroll;/* x出现滚动条*/
+    overflow-y:scroll;/* y出现滚动条*/*/
+  
+}
+
+.cate_div_c{
+	position: relative;
+}
+
+.cate_div_c_class{
+	height: 40px;
+	width: 100%;
+	border: 1px solid green;
+}
+
+.cate_div_c_{
+	margin-top: 5px;
+	margin-left: 38px;
+	height: 28px;
+	width: 70px;
+	font-size: 15px;
+	border-radius: 20px;
+}
+
+.cate_div_c_input{
+	position: absolute;
+	right: 30%;
+	height: 24px;
+	margin-top: 5px;
+}
+
+.cate_div_c_search{
+	position: absolute;
+	right: 25%;
+	height: 30px;
+	width: 50px;
+	margin-top: 5px;
+}
+
+.div_c_{
+	height: 45px;
+	width: 100%;
+	border: 1px solid blueviolet;
+	position: relative;
+}
+
+.div_c_input{
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	left: 3%;
+	top: 15px;
+}
+.div_c_number{
+	position: absolute;
+	left: 7%;
+	top: 4px;
+	height: 40px;
+	width: 40px;
+	/*border: 1px solid red;*/
+	/*background-color: red;*/
+	text-align: center;
+	line-height: 40px;
+}
+.div_c_name{
+	position: absolute;
+	height: 40px;
+	width: 300px;
+	text-align: center;
+	line-height: 40px;
+	/*background-color: blue;*/
+	top: 4px;
+	left: 20%;
+}
+.div_c_stock{
+	position: absolute;
+	height: 40px;
+	width: 120px;
+	text-align: center;
+	line-height: 40px;
+	/*background-color: blue;*/
+	top: 4px;
+	left: 50%;
+}
+
+.div_c_update{
+	position: absolute;
+	height: 40px;
+	width: 120px;
+	text-align: center;
+	line-height: 40px;
+	/*background-color: blue;*/
+	top: 4px;
+	left: 80%;
+}
+.div_c_delete{
+	position: absolute;
+	height: 40px;
+	width: 120px;
+	text-align: center;
+	line-height: 40px;
+	/*background-color: blue;*/
+	top: 4px;
+	left: 90%;
+}
+.div_1_:hover{
+	background-color: #F7F7F7;
+}
